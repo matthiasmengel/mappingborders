@@ -1,0 +1,159 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          17.3, 
+          40.4
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "2011": 1, 
+        "2012": 1, 
+        "2013": 1, 
+        "2014": 1, 
+        "2015": 3, 
+        "2016": 5, 
+        "2017": 4, 
+        "lat": 40.4, 
+        "lon": 17.3, 
+        "name": "Taranto"
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          7.6, 
+          43.8
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "2011": 5, 
+        "2012": 1, 
+        "2013": 2, 
+        "2014": 2, 
+        "2015": 5, 
+        "2016": 5, 
+        "2017": 4, 
+        "lat": 43.8, 
+        "lon": 7.6, 
+        "name": "Ventimiglia"
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          9.2, 
+          45.5
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "2011": 2, 
+        "2012": 2, 
+        "2013": 4, 
+        "2014": 5, 
+        "2015": 4, 
+        "2016": 4, 
+        "2017": 4, 
+        "lat": 45.5, 
+        "lon": 9.2, 
+        "name": "Milan"
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          12.5, 
+          41.9
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "2011": 3, 
+        "2012": 2, 
+        "2013": 3, 
+        "2014": 3, 
+        "2015": 3, 
+        "2016": 5, 
+        "2017": 4, 
+        "lat": 41.9, 
+        "lon": 12.5, 
+        "name": "Rome"
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          9.1, 
+          45.8
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "2011": 1, 
+        "2012": 1, 
+        "2013": 1, 
+        "2014": 1, 
+        "2015": 5, 
+        "2016": 5, 
+        "2017": 3, 
+        "lat": 45.8, 
+        "lon": 9.1, 
+        "name": "Como"
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          11.5, 
+          47.0
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "2011": 1, 
+        "2012": 1, 
+        "2013": 1, 
+        "2014": 2, 
+        "2015": 4, 
+        "2016": 5, 
+        "2017": 4, 
+        "lat": 47.0, 
+        "lon": 11.5, 
+        "name": "Brennero"
+      }, 
+      "type": "Feature"
+    }, 
+    {
+      "geometry": {
+        "coordinates": [
+          13.8, 
+          45.6
+        ], 
+        "type": "Point"
+      }, 
+      "properties": {
+        "2011": 1, 
+        "2012": 1, 
+        "2013": 1, 
+        "2014": 1, 
+        "2015": 4, 
+        "2016": 3, 
+        "2017": 2, 
+        "lat": 45.6, 
+        "lon": 13.8, 
+        "name": "Trieste"
+      }, 
+      "type": "Feature"
+    }
+  ], 
+  "type": "FeatureCollection"
+}
