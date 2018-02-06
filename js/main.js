@@ -2,7 +2,7 @@
 $(document).ready(function() {
 
   var cities;
-  var map = L.map('map').setView([42.35, 10.08], 6);
+  var map = L.map('map').setView([42.35, 10.08], 7);
 
   L.tileLayer(
     'http://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
@@ -103,7 +103,7 @@ $(document).ready(function() {
   } // end updatePropSymbols
   function calcPropRadius(attributeValue) {
 
-    var scaleFactor = 48,
+    var scaleFactor = 600,
       area = attributeValue * scaleFactor;
 
     return Math.sqrt(area/Math.PI);
@@ -136,12 +136,14 @@ $(document).ready(function() {
         L.DomEvent.stopPropagation(e);
       });
 
-      $(legendContainer).append("<h2 id='legendTitle'># of somethings</h2>");
+      $(legendContainer).append("<h2 id='legendTitle'>Border Enforcement</h2>");
+
+      // console.log(classes)
 
       for (var i = 0; i <= classes.length-1; i++) {
 
         legendCircle = L.DomUtil.create("div", "legendCircle");
-
+        // console.log(legendCircle)
         currentRadius = calcPropRadius(classes[i]);
 
         margin = -currentRadius - lastRadius - 2;
