@@ -2,18 +2,14 @@
 $(document).ready(function() {
 
   var cities;
-  var map = L.map('map', {
-      center: [37.8, -96],
-      zoom: 4,
-      minZoom: 4
-    });
+  var map = L.map('map').setView([42.35, 10.08], 6);
 
   L.tileLayer(
     'http://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   }).addTo(map);
 
-  $.getJSON("data/city-data.json")
+  $.getJSON("data/italy_v01.json")
     .done(function(data) {
 
       var info = processData(data);
