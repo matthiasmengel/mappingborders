@@ -1,3 +1,11 @@
+// The following code is adapted from
+// http://www.cartographicperspectives.org/index.php/journal/article/view/cp76-donohue-et-al/1307
+// written by
+//  Richard G. Donohue, University of Kentucky | rgdonohue@uky.edu
+// Carl M. Sack, University of Wisconsin–Madison | cmsack@wisc.edu
+// Robert E. Roth, University of Wisconsin–Madison | reroth@wisc.edu
+// and licensed under Creative Commons License.
+
 
 $(document).ready(function() {
 
@@ -14,7 +22,8 @@ $(document).ready(function() {
 
       var info = processData(data);
       createPropSymbols(info.timestamps, data);
-      createLegend(info.min,info.max);
+      // MM: Legend not yet working. TODO: fix
+      // createLegend(info.min,info.max);
       createSliderUI(info.timestamps);
 
     })
@@ -103,7 +112,7 @@ $(document).ready(function() {
   } // end updatePropSymbols
   function calcPropRadius(attributeValue) {
 
-    var scaleFactor = 600,
+    var scaleFactor = 1000,
       area = attributeValue * scaleFactor;
 
     return Math.sqrt(area/Math.PI);
